@@ -1,0 +1,17 @@
+-- Lucky
+labLukShow  = UI_CreateCompent( frmState, LABELEX_TYPE, "labLukShow", 26, 8, 16, 370 )
+UI_SetCaption( labLukShow, "L" )
+UI_SetTextColor( labLukShow, COLOR_PURPLE )
+UI_SetLabelExFont( labLukShow, DEFAULT_FONT, TRUE, COLOR_WHITE )
+
+-- Critical chance
+labCriticalShow  = UI_CreateCompent( frmState, LABELEX_TYPE, "labCriticalShow", 26, 8, 80, 370 )
+UI_SetCaption( labCriticalShow, "C" )
+UI_SetTextColor( labCriticalShow, COLOR_PURPLE )
+UI_SetLabelExFont( labCriticalShow, DEFAULT_FONT, TRUE, COLOR_WHITE )
+
+-- MF chance
+labMfShow  = UI_CreateCompent( frmState, LABELEX_TYPE, "labMfShow", 26, 8, 144, 370 )
+UI_SetCaption( labMfShow, "M" )
+UI_SetTextColor( labMfShow, COLOR_PURPLE )
+UI_SetLabelExFont( labMfShow, DEFAULT_FONT, TRUE, COLOR_WHITE )
